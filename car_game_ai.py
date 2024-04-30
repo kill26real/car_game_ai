@@ -57,7 +57,7 @@ class Car:
 
     def update(self, map):
         #check speed
-        self.speed = 15
+        self.speed = 10
 
         #check position
         self.rotate_surface = self.rot_center(self.surface, self.angle)
@@ -131,7 +131,7 @@ def run_car(genomes, config):
     clock = pygame.time.Clock()
     generation_font = pygame.font.SysFont("Arial", 70)
     font = pygame.font.SysFont("Arial", 30)
-    map = pygame.image.load('sprites/map3.png')
+    map = pygame.image.load('sprites/map.png')
 
 
     # Main loop
