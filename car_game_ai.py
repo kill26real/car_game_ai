@@ -131,7 +131,7 @@ def run_car(genomes, config):
     clock = pygame.time.Clock()
     generation_font = pygame.font.SysFont("Arial", 70)
     font = pygame.font.SysFont("Arial", 30)
-    map = pygame.image.load('sprites/map.png')
+    map = pygame.image.load('sprites/map3.png')
 
 
     # Main loop
